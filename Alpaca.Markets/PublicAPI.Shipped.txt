@@ -1529,3 +1529,5 @@ static Alpaca.Markets.TrailingStopOrder.Buy(string! symbol, Alpaca.Markets.Order
 static Alpaca.Markets.TrailingStopOrder.Sell(string! symbol, Alpaca.Markets.OrderQuantity quantity, Alpaca.Markets.TrailOffset trailOffset) -> Alpaca.Markets.TrailingStopOrder!
 static Alpaca.Markets.TrailOffset.InDollars(decimal value) -> Alpaca.Markets.TrailOffset
 static Alpaca.Markets.TrailOffset.InPercent(decimal value) -> Alpaca.Markets.TrailOffset
+Alpaca.Markets.Authentication.PiapiriKey
+Alpaca.Markets.Authentication.PiapiriKey.PiapiriKey(string! keyId, string! value) -> void
